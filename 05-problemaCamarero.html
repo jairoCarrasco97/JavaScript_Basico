@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let porcentaje = prompt("Porcentaje de propina (sin el %)");
+        let total = prompt("Total de la cuenta");
+        let precioFinal = total * (1+porcentaje/100);
+        document.write("El total a pagar es: " + precioFinal.toFixed(2) + "€");
+    </script>
+</body>
+</html>
